@@ -10,7 +10,11 @@ Compile with gcc and MPI
 ```bash
 mpicc -Ofast random-circuit-example.c -o executable -lm
 ```
-Run the program with
+In a single node computer, run as:
+```bash
+mpirun ./executable 
+```
+On a multinode system run with Slurm 
 ```bash
 sbatch slurmscript.batch
 ```
@@ -23,4 +27,4 @@ use a Slurm script:
 #SBATCH –t 02:00:00   # usually less than 3 hours
 mpirun ./executable
 ```
-**The number of nodes and number of cores must be a power of two.**
+**The number of nodes must be a power of two.**

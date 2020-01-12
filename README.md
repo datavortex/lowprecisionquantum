@@ -1,8 +1,9 @@
 ## A low precision quantum simulation library
 
 - For simulations of a quantum computer with Schrodinger's formulation 
-- Low precision arithmetic to save memory and bandwidth
-- The paper contains the mathematical analysis of the errorr. Typically 24 bits per coefficient are sufficient for almost any simulation  
+- Uses low precision arithmetic to save memory and bandwidth
+- The paper contains the mathematical analysis of the errorr. Typically 24 bits per coefficient are sufficient for almost any simulation
+- Most useful when the states have maximal entanglement and entropy at some point of the computation
 
 ## How to compile and run
 Compile with gcc and MPI

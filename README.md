@@ -1,6 +1,6 @@
 ## A low precision quantum simulation library
 
-- For simulations of quantum circuits with Schrodinger's formulation 
+- For simulations of quantum circuits with Schrodinger's formulation (unoptimized)
 - Uses low precision arithmetic to save memory and bandwidth
 - The paper "The limits of quantum circuit simulation with low precision arithmetic" contains the mathematical analysis of the error. Between 16 and 32 bits per coefficient are sufficient for almost any simulation
 - Most precise when the states are random and maximally entangled.

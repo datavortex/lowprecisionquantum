@@ -4,8 +4,6 @@
 - Uses low precision arithmetic to save memory and bandwidth
 - The paper "The limits of quantum circuit simulation with low precision arithmetic" contains the mathematical analysis of the error. Between 16 and 32 bits per coefficient are sufficient for almost any simulation
 - Most precise when the states are random and maximally entangled.
-- If you want to test your own quantum circuits, do not edit the library, but write the quantum program in a separate file containing the function "qcprogram()" as shown in the example.
-
 ## How to compile and run
 A test program is provided. It runs the random circuit test of Table VII. Compile with mpicc as
 ```bash
@@ -29,3 +27,4 @@ Suggested Slurm script:
 srun ./test
 ```
 **The number of ranks must be a power of two.**
+ If you want to test your own quantum circuits, do not edit the library, but write the quantum program in a separate file containing the function "qcprogram()" as shown in the example.

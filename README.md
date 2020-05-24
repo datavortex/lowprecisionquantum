@@ -28,4 +28,4 @@ Suggested Slurm script:
 #SBATCH –t 02:00:00   
 srun ./test
 ```
-**The number of nodes must be a power of two.**
+**The number of ranks must be a power of two.**

@@ -26,5 +26,6 @@ Suggested Slurm script:
 #SBATCH –t 02:00:00   
 srun ./test
 ```
-**The number of ranks must be a power of two.**
- If you want to test your own quantum circuits, do not edit the library, but write the quantum program in a separate file containing the function "qcprogram()" as shown in the example.
+The number of ranks must be a power of two.
+
+If you want to test your own quantum circuits, do not edit the library, but write the quantum program in a separate file containing the function "qcprogram()" as shown in the example.

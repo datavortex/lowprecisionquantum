@@ -1,5 +1,3 @@
-[Link to main repository](https://github.com/datavortex/lowprecisionquantum)
-
 ## A low precision quantum simulation library
 
 - For simulations of quantum circuits with Schrodinger's formulation 

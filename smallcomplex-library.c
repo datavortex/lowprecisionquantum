@@ -1,6 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////
 //  LIBRARY FILE
 //  LOW PRECISION LIBRARY FOR QUANTUM CIRCUIT SIMULATION
+//  8-bit aligned version
 //  (c) Santiago Ignacio Betelu, Denton 2020
 //     __   ____  _      __ ___   ___   ____ _____ ____ ____ ____ ____   _  __
 //    / /  / __ \| | /| / // _ \ / _ \ / __// ___//  _// __//  _// __ \ / |/ /

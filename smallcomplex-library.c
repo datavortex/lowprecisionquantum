@@ -5,8 +5,12 @@
 //     __   ____  _      __ ___   ___   ____ _____ ____ ____ ____ ____   _  __
 //    / /  / __ \| | /| / // _ \ / _ \ / __// ___//  _// __//  _// __ \ / |/ /
 //   / /__/ /_/ /| |/ |/ // ___// , _// _/ / /__ _/ / _\ \ _/ / / /_/ //    / 
-//  /____/\____/ |__/|__//_/   /_/|_|/___/ \___//___//___//___/ \____//_/|_/  
-//                                                                                              
+//  /____/\____/ |__/|__//_/   /_/|_|/___/ \___//___//___//___/ \____//_/|_/
+//
+// Many thanks to Datavortex Technologies that supported this work and 
+// provided the computer system Hypatia used in most of the development and 
+// to the Texas Advanced Computing Center (TACC) for providing 
+// access to Stampede2.                                                                                        
 //////////////////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <string.h>

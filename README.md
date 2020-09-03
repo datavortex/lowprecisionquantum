@@ -4,6 +4,10 @@
 - Uses low precision arithmetic to save memory and bandwidth
 - The paper "The limits of quantum circuit simulation with low precision arithmetic" contains the mathematical analysis of the error. Between 16 and 32 bits per coefficient are sufficient for almost any simulation
 - Most precise when the states are random and maximally entangled.
+
+## Paper:
+https://arxiv.org/abs/2005.13392
+
 ## How to compile and run
 A test program is provided. It runs the random circuit test of Table VII. Compile with mpicc as
 ```bash
